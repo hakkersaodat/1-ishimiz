@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+header ul {
+	display: flex;
+	background-color: black;
+
+}
+
+header ul li {
+	padding: 42px;
+	list-style: none;
+	justify-content: flex-end;
+	font-size: 32px;
+	color: white;
+}
+
+header ul select:hover {
+	color: #f5a442;
+}
+
+header ul li:hover {
+    color:#f5a442;
+}
+
+header ul .yellow{
+	background-color: #f5b942;
+}
+
+header ul .yellow:hover {
+	background-color: #f5a442;
+	color: black;
+}
+
+header ul .yellow {
+	color: black;
+}
+
+header ul select {
+	background-color: black;
+	border: transparent;
+	color: white;
+}
+
+header ul .right {
+	margin-left: auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3d4045;
+}
+
+nav ul li {
+	list-style: none;
+	padding: 12px;
+	color: white;
+	font-weight: 700;
+	
+}
+
+section {
+	background-image: url(https://wstatic-prod.pubg.com/web/live/main_1d8e082/img/aeca002.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+section .container .parent .child p {
+	font-weight: 700;
+	font-size: 60px;
+	color: white;
+}
+
+section .container {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+section .container .parent .child span {
+	color: white;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+section .container .parent .child {
+	font-size: 25px;
+}
+
+
+#zero .parent {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#zero .container{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+@media screen (max-width 768px){
+	img {
+		width: 100%!important;
+	}
+	.child {
+		width: 100%!important;
+	}
+
+	.parent {
+		width: 100%!important;
+		display: flex!important;
+		flex-wrap: wrap!important;
+	}
+
+	header ul li select {
+		width: 100%!important;
+	}
+
+	section .parent{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+}
